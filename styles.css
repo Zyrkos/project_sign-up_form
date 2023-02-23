@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif ;
+    display: block;
+}
+
+.content {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+.background-section {
+    flex: 3;
+    border: 2px;
+    background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.form-section {
+    flex: 5;
+}
+
