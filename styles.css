@@ -3,6 +3,8 @@
     src: url(./fonts/Norse-Bold.otf);
 }
 
+a:link {text-decoration: none;}
+
 :root {
     --left-space: 48px;
 }
@@ -84,9 +86,9 @@ div {
 .form-section > p {
     margin-bottom: 10px;
     font-size: 1.4rem;
-    padding-left: 10px;
     max-width: 80%;
     font-weight: bold;
+    margin-left: var(--left-space);
 }
 
 form {
@@ -129,11 +131,27 @@ form {
     margin-right: 32px;
 }
 
-input.focus {
-    border: 1px solid blue;
-}
-
 .inputs > :first-child {
     font-size: 20px;
     margin-top: 5px;
 }
+
+#create-account {
+    margin-top: 32px;
+    background-color: #596D48;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: var(--left-space);
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px 50px;
+}
+
+p.log-in {
+    font-size: 1rem;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
