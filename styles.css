@@ -18,6 +18,7 @@ body {
     padding: 0;
     font-family:Arial, Helvetica, sans-serif ;
     display: block;
+    background-color: #f9fafb;
 }
 
 .content {
@@ -81,6 +82,7 @@ div {
     background-color: #f9fafb;
     display: flex;
     flex-direction: column;
+    align-self: center;
 }
 
 .form-section > p {
